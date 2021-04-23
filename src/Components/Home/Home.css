@@ -1,0 +1,106 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  width: 100vw;
+}
+
+.picture {
+  background-image: url("https://lh3.googleusercontent.com/kK82BiGHHpq5wB6hXRKd-_Dlx0W8CEgIkufaa_ENdSg2OQply7KNDBqtd9BqNTTXoCR4KWVMBweBJmP_GB8rHbYCPA5pV2xzPJm6Ni2HPgdU8dtiikiMAxp22Xvvi8I6nK9rv0K52QAABcyqCUTTKsruB4HAn0gz-qrliUxuv0InbV9uUPucG_hpps24BnPgXu3X8wryxZjtqoo1pDvNqfmHOvvnOe2bI1GHMVl-1r_eVL8wqP1hIO2ooBLeN_E5ghiYC_Nd-HRAlh5gAJykwSXkBC9n2xqmjLfeSrYpUqT3Hc59stCtwWm8UfAlnw-e7D4GtRuY_Ze-YDSsY2RRV5Cl62u6si7eIiHtGLEpSxsFiKZrmsZOA5qWRZ2C5hvmTXr5CoG50TX9dO82mNbkx8ByFwgyZ3XKv6Pio41M07vtzOm1E9ATJ2D6zY36fsGHeF2CzWLyBl-rwPbCh9N4KVB3Ptgdanpp89DUvziaD4yct7wpBcG0Z-XJPeXcpeeHUub6dusGJN9tOoULbTa-q_eiETEclYNNUW_jM698701Xjfq7g00XTbJGxS1oKoRu-JX-Es28jSrhADv3fu7UGjvTf0MWKkxCOmZxBhIjxRzBXMrTGNS0aZqT9Tk0wKAuj4xWrAGCU-iJVbNqvVrnOOEVXKFBjzMzIV-0O9prk3fzrOE8V29kuBRFRJV8mokHmAuELZOzW8VyMIZiSdFSRVU=w1204-h903-no?authuser=0");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: none;
+  height: auto;
+  width: 100vw;
+}
+
+.haze {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: #e7edefd0;
+  border-radius: 15%;
+  margin: 5px;
+}
+
+.icon:hover {
+  background-color: white;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.description {
+  font-size: large;
+  padding: 15px;
+}
+
+.projectDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 45%;
+  height: auto;
+  margin: 50px 30px;
+  border: #333970 solid 5px;
+  background-color: #333970;
+}
+
+.sitePicture {
+  height: auto;
+  width: auto;
+  margin-top: 10px;
+}
+
+.projectNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.linksStyle {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.links {
+  font-size: x-small;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+  .projectDisplay {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project {
+    width: 50%;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .project {
+    width: 75%;
+  }
+}

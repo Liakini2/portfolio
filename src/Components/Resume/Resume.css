@@ -1,0 +1,49 @@
+.resume {
+  display: flex;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.resumeContainer {
+  position: relative;
+  height: fit-content;
+  width: 75vw;
+}
+
+.resumePicture {
+  position: absolute;
+  height: 100%;
+  width: 75vw;
+  z-index: -200;
+}
+
+.resumeHaze {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+}
+
+.resumeImage {
+  width: 65vw;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .resumeContainer {
+    width: 100vw;
+  }
+  .resumeHaze {
+    width: 100vw;
+  }
+  .resumePicture {
+    width: 100vw;
+  }
+}

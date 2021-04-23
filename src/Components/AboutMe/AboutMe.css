@@ -1,0 +1,67 @@
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.aboutContainer {
+  position: relative;
+  height: fit-content;
+  width: 75vw;
+}
+
+.aboutPicture {
+  position: absolute;
+  height: 100%;
+  width: 75vw;
+  z-index: -200;
+}
+
+.aboutHaze {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutText {
+  font-size: x-large;
+  padding: 50px;
+  text-align: center;
+}
+
+.selfie {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.aboutTitle {
+  text-align: center;
+}
+
+@media screen and (max-width: 610px) {
+  .aboutContainer {
+    width: 100vw;
+  }
+  .aboutHaze {
+    width: 100vw;
+  }
+  .aboutPicture {
+    width: 100vw;
+  }
+  .selfie {
+    height: 200px;
+  }
+  .aboutText {
+    font-size: large;
+  }
+  .aboutTitle {
+    font-size: large;
+  }
+}
